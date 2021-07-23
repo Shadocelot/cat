@@ -1,0 +1,97 @@
+#banner {
+	width:  100%;
+	position: relative;
+}  
+
+.cards{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+h1 {
+	font-size: 600%;
+	font-weight: bolder;
+	color: ghostwhite;
+	letter-spacing: 10px;
+	opacity: 90%;
+	font-family: 'Titillium Web', sans-serif;
+	transform: translate(40%, 130%);
+	
+	padding: 20px;
+	border-radius: 20px;
+	text-shadow: 10px 10px 10px floralwhite;
+
+}
+
+body{
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif
+}
+ 
+li{
+	list-style-type: none;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#topbanner {
+	display: flex;
+}
+
+h1,#topbanner h2{
+	position: absolute;
+}
+
+#topbanner h2{
+	color: silver;
+	background: whitesmoke;
+	padding: 10px;
+	border-radius: 20px;
+	transform: translate(150%, 600%);
+	font-size: 200%;
+	text-decoration: none;
+}
+
+#topbanner a {
+	text-decoration: none;
+}
+
+
+#row {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h2 {
+	padding: 20px;
+}
+
+p{
+	color: black;
+	font-size: 30px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+#navigation {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.row {
+	border: 1px solid black;
+}
+
+.col-md-6, .col-sm-12 {
+	border: 1px solid black;
+	
+}

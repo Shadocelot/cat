@@ -1,0 +1,26 @@
+#image {
+
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+
+.paragraph {
+	background: #d3eced;
+	padding: 5%;
+	text-align: center;
+}
+
+.d-block {
+	height: 900px;
+	object-fit: cover;
+	padding: 5%;
+}
+
+.carousel-item {
+	padding: 5%;
+}
+
+body {
+	background-color: black;
+}
